@@ -1,6 +1,6 @@
 # lanas-ux-design
 
-Claude Code skills for product design work in Figma.
+Agent skills for product design work in Figma.
 
 | Skill | What it does |
 | --- | --- |
@@ -9,13 +9,13 @@ Claude Code skills for product design work in Figma.
 
 ## Requirements
 
-- [Claude Code](https://claude.com/claude-code)
+- An AI coding agent that supports [Agent Skills](https://agentskills.io) (`SKILL.md`) and MCP servers, e.g. Claude Code, Codex, Cursor or Gemini CLI
 - Figma MCP (both skills)
 - Mobbin MCP (`mobbin-pattern-scout` only)
 
 ## Install
 
-Copy a skill folder into your Claude Code skills directory:
+Copy a skill folder into your agent's skills directory. For Claude Code:
 
 ```sh
 git clone https://github.com/tzjiahung/lanas-ux-design.git
@@ -23,11 +23,11 @@ cp -r lanas-ux-design/mobbin-pattern-scout ~/.claude/skills/
 cp -r lanas-ux-design/new-component-checker ~/.claude/skills/
 ```
 
-Or place them in a project's `.claude/skills/` to scope them to that project.
+Or place them in a project's `.claude/skills/` to scope them to that project. Other agents use their own skills folder; check your agent's docs.
 
 ## Usage
 
-- **mobbin-pattern-scout**: share a Figma link to the screen you're redesigning and ask Claude to find competitor patterns, e.g. *"Find Mobbin references for this My Account screen and suggest layouts."*
+- **mobbin-pattern-scout**: share a Figma link to the screen you're redesigning and ask your agent to find competitor patterns, e.g. *"Find Mobbin references for this My Account screen and suggest layouts."*
 - **new-component-checker**: share a Figma link to the new component and the design-system page it should follow, e.g. *"Does this new card follow our design system? Fix it."*
 
 ## Contributing
